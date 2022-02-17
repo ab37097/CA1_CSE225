@@ -1,0 +1,23 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".SplashAfterScreen">
+    <item
+        android:id="@+id/action_settings"
+        android:title="Settings"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_email"
+        android:title="Email"
+        android:icon="@android:drawable/ic_dialog_email"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/action_add"
+        android:title="User"
+        android:icon="@android:drawable/ic_menu_add"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/gotoFeedback"
+        android:title="Feedback"
+        app:showAsAction="never"/>
+</menu>
